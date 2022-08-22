@@ -1,5 +1,7 @@
 import React from 'react'
 import CodeIcon from '../assests/code.jpg'
+import CoffeeIcon from '../assests/Coffee.png'
+import Html from "../icons/html.png";
 
 
 
@@ -32,7 +34,7 @@ const Portfolio = () => {
 
 
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid w-full sm:grid-cols-2 md:grid-cols-3 gap-8 py-8 px-12 sm:px-0'>
             {
                 Portfolios.map(({id,src}) => (
                  <div key={id} className='shadow-md shadow-[#9C897B] rounded-lg'>

@@ -93,9 +93,10 @@ const Certificate = () => {
     },
   ];
   return (
+
     <div
-      name="experience"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      name="certificates"
+      className="w-full h-full bg-[#09070A] text-[#EDECEC]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -104,7 +105,7 @@ const Certificate = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {certifi.map(({ id, title, date, sub, style, link }) => (
             <div
               key={id}

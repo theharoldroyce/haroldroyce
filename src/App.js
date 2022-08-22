@@ -11,6 +11,8 @@ import Foother from "./components/Foother";
 import Certificate from "./components/Certificate";
 
 
+
+
 function App() {
   return (
     <>
@@ -21,6 +23,7 @@ function App() {
     <Technology/>
     <Portfolio />
     <Experience/>
+    <Certificate/>
     <Contact />
     <Foother/>
 
