@@ -24,6 +24,15 @@ const About = () => {
               focus now enhancing my skill on Web Development using modern
               Technology. When I'm not writing code i do photography.
           </p>
+          <br/>
+          <p className='text-sm md:text-base'>
+            For any sort of help or inquiries, feel free to send me an email at
+            <a href="mailto:theharoldroyce@gmail.com">
+            <span className='text-[#9B5642]'>  theharoldroyce@gmail.com  </span>
+            </a>
+             and I'll get back to you soon.
+
+          </p>
           </div>    
         </div>
     </div>

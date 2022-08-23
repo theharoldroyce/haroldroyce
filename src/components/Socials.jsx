@@ -1,24 +1,15 @@
 import React from 'react'
-import Facebook from '../socialicons/facebook.png'
 import Instagram from '../socialicons/instagram.png'
 import Twitter from '../socialicons/twitter.png'
-import Tiktok from '../socialicons/tiktok.png'
 import LinkIn from '../socialicons/linkedin.png'
 import GitHub from '../socialicons/github.png'
 
 const Socials = () => {
 
     const social = [
+
         {
             id: 1,
-            src: Facebook,
-            title: 'Facebook',
-            style: 'shadow-blue-500',
-            link: 'https://www.facebook.com/harold.royce'
-
-        },
-        {
-            id: 2,
             src: Instagram,
             title: 'Instagram',
             style: 'shadow-yellow-400',
@@ -26,7 +17,7 @@ const Socials = () => {
 
         },
         {
-            id: 3,
+            id: 2,
             src: Twitter,
             title: 'Twitter',
             style: 'shadow-green-500',
@@ -34,14 +25,7 @@ const Socials = () => {
 
         },
         {
-            id: 4,
-            src: Tiktok ,
-            title: 'Tiktok',
-            style: 'shadow-red-700',
-            link: 'https://tiktok.com/@kapecartel.co'
-        },
-        {
-            id: 5,
+            id: 3,
             src: LinkIn,
             title: 'LinkedIn',
             style: 'shadow-blue-500',
@@ -49,7 +33,7 @@ const Socials = () => {
 
         },
         {
-            id: 6,
+            id: 4,
             src: GitHub ,
             title: 'GitHub',
             style: 'shadow-gray-400',

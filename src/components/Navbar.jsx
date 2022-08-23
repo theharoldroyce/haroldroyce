@@ -33,7 +33,7 @@ const tohome = [
 ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 bg-[#09070A] text-[#EDECEC] fixed top-0'>
+    <div className='flex justify-between items-center w-full h-20 px-6 bg-[#09070A] text-[#EDECEC] fixed top-0'>
         <div className='bg-[#09070A]'>
           {
             tohome.map(({id, link}) => (

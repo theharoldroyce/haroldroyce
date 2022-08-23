@@ -90,14 +90,14 @@ const Technology = () => {
         {
             id: 11,
             src: Cshrap,
-            title: 'Cshrap',
+            title: 'C Sharp',
             style: 'shadow-indigo-100'
 
         },
         {
             id: 12,
             src: Mysql,
-            title: 'Mysql',
+            title: 'MySql',
             style: 'shadow-green-200'
 
         },

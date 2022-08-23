@@ -1,7 +1,6 @@
 import React from 'react'
 import CodeIcon from '../assests/code.jpg'
-import CoffeeIcon from '../assests/Coffee.png'
-import Html from "../icons/html.png";
+
 
 
 
