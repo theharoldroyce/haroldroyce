@@ -1,6 +1,7 @@
 import React from 'react'
-import CodeIcon from '../assests/code.jpg'
-
+import One from '../assests/one.png'
+import Two from '../assests/two.png'
+import Three from '../assests/three.png'
 
 
 
@@ -9,21 +10,24 @@ const Portfolio = () => {
     const Portfolios = [
         {
             id: 1,
-            src: CodeIcon,
+            src: One,
             link1: 'http://haroldroyce.ml/?i=1',
             title: 'Resume Website',
             
         },
         {
             id: 2,
-            src: CodeIcon,
+            src: Two,
             link1: 'https://responsive-navigation-8cd10.web.app/',
             link2: 'https://github.com/theharoldroyce/responsive-navigation/tree/main/src',
             title: 'Responsive Navigation bar',
         },
         {
             id: 3,
-            src: CodeIcon
+            src: Three,
+            link1: 'https://signin-sigup-form.web.app/',
+            link2: 'https://github.com/theharoldroyce/signin-signup-form/tree/main/src',
+            title: 'Sign In & Sign Up Responsive form',
         },
 
     ]
@@ -39,11 +43,13 @@ const Portfolio = () => {
 
 
 
-            <div className='grid w-full sm:grid-cols-2 md:grid-cols-3 gap-8 py-8 px-12 sm:px-0'>
+            <div className='grid w-full sm:grid-cols-2 md:grid-cols-3 gap-8 py-8 px-12 sm:px-0 '>
             {
                 Portfolios.map(({id,src,link1,link2,title}) => (
-                 <div key={id} className='shadow-md shadow-[#9C897B] rounded-lg'>
-                    <img src={src} alt='/' className='rounded-md duration-200 hover:scale-105' />
+                 <div key={id} className='shadow-md shadow-[#9C897B] rounded-lg duration-200 hover:scale-105'>
+                     <div className=''>
+                        <img src={src} alt='/' className='rounded-md ' />
+                     </div>
                       <div className='flex items-center justify-center'>
                         <p className='mt-4 font-semibold text-[#9B5642]'>{title}</p>
                       </div>
